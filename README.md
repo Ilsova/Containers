@@ -30,7 +30,7 @@ The `s21_containers.h` library includes classes for main containers: `array`,`li
 
 To use the Containers library in your project:
 1. Clone the repository to your local machine.
-2. Include the necessary header files (`s21_containers.h`, `s21_containersplus.h`, etc.) in your project.
+2. Include the necessary header files in your project.
 3. Make sure to set up the GCC compiler environment.
 4. Use the provided Makefile to test the library and ensure proper functionality.
 5. Enjoy the flexibility and power of the Containers library for your C++ projects.
