@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+#include "Array/s21_array.h"
 #include "List/s21_list.h"
 #include "Map/s21_map.h"
 #include "Queue/s21_queue.h"
