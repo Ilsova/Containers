@@ -24,7 +24,7 @@ The `s21_containers.h` library includes classes for main containers: `array`,`li
 |Contributor|Containers|
 |---	|---	|
 |queeju	|Map, Set, Vector	|
-|styxdune	|Array, Lits, Stack, Queue	|
+|[ilsova](https://github.com/Ilsova)	|Array, Lits, Stack, Queue	|
 
 ## Usage
 
