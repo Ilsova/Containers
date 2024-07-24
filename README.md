@@ -1,38 +1,38 @@
-# Containers
+# Контейнеры
 
-The goal of this project is to develop a C++ library of template container classes adhering to the standards and guidelines of the Standard Template Library (STL). This project is a part of School21 curriculum. 
+Цель этого проекта — разработать библиотеку контейнерных классов шаблонов на C++, соответствующих стандартам и рекомендациям стандартной библиотеки шаблонов (STL). Этот проект является частью учебной программы School21.
 
-## Specifications
+## Технические характеристики
 
-- **Template Classes**: All classes are implemented as template classes.
-- **Iterators**: Iterators are used throughout the implementation.
-- **Namespace**: All classes are implemented within the `s21` namespace.
-- **Unit Testing**: Full coverage of container classes methods is provided with unit tests using the GTest library.
-- **STL Logic**: The logic of the Standard Template Library (STL) is followed in terms of checks and behavior in abnormal situations.
+- **Шаблонные классы**: Все классы реализованы как шаблонные.
+- **Итераторы**: Итераторы используются во всей реализации.
+- **Пространство имен**: Все классы реализованы в пространстве имен `s21`.
+- **Модульное тестирование**: Полное покрытие методов контейнерных классов обеспечено модульными тестами с использованием библиотеки GTest.
+- **Логика STL**: Логика Стандартной библиотеки шаблонов (STL) соблюдается в части проверок и поведения в нештатных ситуациях.
 
-## Implementation of s21_containers.h Library
+## Реализация библиотеки s21_containers.h
 
-The `s21_containers.h` library includes classes for main containers: `array`,`list`, `map`, `queue`, `set`, `stack`, and `vector`. The library is designed as a header file `s21_containers.h`, which includes separate header files with implementations of each container (`s21_list.h`, `s21_map.h`, etc.). The implementation adheres to the STL logic while providing flexibility in choosing the final implementations.
+Библиотека `s21_containers.h` включает классы для основных контейнеров: `array`,`list`, `map`, `queue`, `set`, `stack`, and `vector`. Библиотека разработана в виде заголовочного файла `s21_containers.h`, который включает отдельные заголовочные файлы с реализациями каждого контейнера (`s21_list.h`, `s21_map.h`, и т.д.). Реализация следует логике STL, обеспечивая гибкость в выборе конечных реализаций.
 
-### Features
-- Header-only library for easy inclusion in projects.
-- Follows STL logic with custom implementations.
-- Makefile provided for testing the library.
+### Особенности
+- Библиотека, состоящая только из заголовочных файлов, для легкого включения в проекты.
+- Следует логике STL с пользовательскими реализациями.
+- Предоставляется Makefile для тестирования библиотеки.
 
-## Project Contributors
+## Участники проекта
 
 |Contributor|Containers|
 |---	|---	|
-|queeju	|Map, Set, Vector	|
-|[ilsova](https://github.com/Ilsova)	|Array, Lits, Stack, Queue	|
+|[queeju](https://github.com/queeju)	|Map, Set, Vector	|
+| ilsova	|Array, Lits, Stack, Queue	|
 
-## Usage
+## Использование
 
-To use the Containers library in your project:
-1. Clone the repository to your local machine.
-2. Include the necessary header files in your project.
-3. Make sure to set up the GCC compiler environment.
-4. Use the provided Makefile to test the library and ensure proper functionality.
-5. Enjoy the flexibility and power of the Containers library for your C++ projects.
+Чтобы использовать библиотеку Containers в вашем проекте:
+1. Клонируйте репозиторий на свой локальный компьютер.
+2. Включите необходимые заголовочные файлы в ваш проект.
+3. Убедитесь, что у вас настроена среда компилятора GCC.
+4. Используйте предоставленный Makefile для тестирования библиотеки и обеспечения правильной работы.
+5. Наслаждайтесь гибкостью и мощью библиотеки Containers для ваших проектов на C++.
 
 
